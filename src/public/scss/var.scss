@@ -1,0 +1,18 @@
+/**
+ * common mixin
+ */
+@mixin ipadpro{
+    @media only screen and (max-width: 1024px){
+        @content
+    }
+}
+
+@mixin mobile{
+    @media only screen and (max-width: 1024px){
+        @content
+    }
+}
+
+$c-white: #fff;
+$c-black: #000;
+$c-primary: #61dafb;;
